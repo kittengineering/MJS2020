@@ -21,4 +21,5 @@ https://github.com/obokhove/wetropolis20162020 is another project that uses this
 ![alt text](https://github.com/kittengineering/MJS2020/blob/main/MJS2020_WithAirSensorAndOLED.jpg?raw=true)
 
 
-
+## Contact information ##
+If you want to contact us for information about this board please send an email to mjs2020(at)kitt.nl.
