@@ -18,7 +18,7 @@ https://github.com/obokhove/wetropolis20162020 is another project that uses this
 
 #### Example of a board with a mounted OLED screen and temperature and humidity sensor ###
 
-![alt text](https://github.com/kittengineering/MJS2020/blob/main/MJS2020.jpg?raw=true](https://github.com/kittengineering/MJS2020/blob/main/MJS2020_WithAirSensorAndOLED.jpg?raw=true)
+![alt text](https://github.com/kittengineering/MJS2020/blob/main/MJS2020.jpg?raw=true)
 
 
 
