@@ -5,7 +5,7 @@ MJS2020 platform board repository.
 
 Current How To to get code on the board:
 * Note: under windows Arduino IDE sometimes doesn't find the port. Yet flashing the board still works:  set:  Tools -> serial -> refers to SerialUSB, and tools -> USB Type -> Serial, and tools -> programmer -> STM32 BOOTLOADER. Click "upload" and it should start uploading the software.
-* https://github.com/kittengineering/ArduinoCore-stm32l0
+* https://github.com/kittengineering/ArduinoCore-stm32l0 explains the procedure to get sketches into the board.
 * Board configuration for arduino IDE: https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json
 
 ## Resources ##
