@@ -8,6 +8,13 @@ Current How To to get code on the board:
 * https://github.com/kittengineering/ArduinoCore-stm32l0 explains the procedure to get sketches into the board.
 * Board configuration for arduino IDE: https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json
 
+## Getting started ##
+* Install Arduino IDE
+* In arduino IDE go to File -> Preferences and in ""Additional boards manager URLS add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
+* go to Tools -> 
+
+
+
 ## Resources ##
 
 On https://github.com/meetjestad has a lot of information about these board. Note that depending on the firmware you might have a V1, V2, V3 or V4. Thankfully you can ask the board model using Arduino IDE
