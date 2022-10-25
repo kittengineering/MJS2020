@@ -8,7 +8,7 @@ MJS2020 platform board repository.
 
 ### Install Arduino IDE ###
  1. In arduino IDE go to File -> Preferences and in "Additional boards manager URLS" add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
- 2. go to Tools -> Board -> Board managaer, select -TBD- One of the STM32 or meetjestad boards. -TDB-
+ 2. go to Tools -> Board -> Board manager, type in "STM32", the "Meet je stad! STM32LO Boards" should appear. "Boards included in this package" states(among other things) "MJS202-PROTO4". Press install.
  3. go to tools -> programmer and select STM32 BOOTLOADER (STM32LO)
 
 ### Getting example sketches. ###
