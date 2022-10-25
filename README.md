@@ -17,6 +17,9 @@ MJS2020 platform board repository.
  3. if it shows [Downloading ==== ] and then "Download succeded" but follows with an error message, the .ino sketch should still work.
 
 ### Installing firmware ###
+* This only needs to be done once: when the board comes off the shelf from the factory.
+* Your board already has firmware installed if, for example, it displays text on the LCD, sends messages over serial ports, or "does anything besides just sitting there".
+
 #### OS Specific Setup
 
 ##### Linux
