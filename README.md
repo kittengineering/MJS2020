@@ -7,15 +7,14 @@ MJS2020 platform board repository.
 * Note if your board is fresh off the shelf and doesn't have any firmware installed, follow the "Installing firmware -> OS Specific Setup" as descibed further down.
 
 ### Install Arduino IDE ###
-** In arduino IDE go to File -> Preferences and in "Additional boards manager URLS" add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
-** go to Tools -> Board -> Board managaer, select -TBD- One of the STM32 or meetjestad boards. -TDB-
-** go to tools -> programmer and select STM32 BOOTLOADER (STM32LO)
+ 1. In arduino IDE go to File -> Preferences and in "Additional boards manager URLS" add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
+ 2. go to Tools -> Board -> Board managaer, select -TBD- One of the STM32 or meetjestad boards. -TDB-
+ 3. go to tools -> programmer and select STM32 BOOTLOADER (STM32LO)
 
 ### Getting example sketches. ###
-** either clone or download from this git repository to get a .ino sketch directly in the software subfolders.
-
-* Note: under windows Arduino IDE sometimes doesn't find the port. Yet flashing the board still works:  set:  Tools -> serial -> refers to SerialUSB, and tools -> USB Type -> Serial, and tools -> programmer -> STM32 BOOTLOADER. Click "upload" and it should start uploading the software.
-** if it shows [Downloading ==== ] and then "Download succeded" but follows with an error message, the .ino sketch should still work.
+ 1. either clone or download from this git repository to get a .ino sketch directly in the software subfolders.
+ 2. Note: under windows Arduino IDE sometimes doesn't find the port. Yet flashing the board still works:  set:  Tools -> serial -> refers to SerialUSB, and tools -> USB Type -> Serial, and tools -> programmer -> STM32 BOOTLOADER. Click "upload" and it should start uploading the software.
+ 3. if it shows [Downloading ==== ] and then "Download succeded" but follows with an error message, the .ino sketch should still work.
 
 ### Installing firmware ###
 #### OS Specific Setup
