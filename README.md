@@ -3,16 +3,47 @@ MJS2020 platform board repository.
 
 ## MJS 2020 ##
 
-Current How To to get code on the board:
-* Note: under windows Arduino IDE sometimes doesn't find the port. Yet flashing the board still works:  set:  Tools -> serial -> refers to SerialUSB, and tools -> USB Type -> Serial, and tools -> programmer -> STM32 BOOTLOADER. Click "upload" and it should start uploading the software.
-* https://github.com/kittengineering/ArduinoCore-stm32l0 explains the procedure to get sketches into the board.
-* Board configuration for arduino IDE: https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json
-
 ## Getting started ##
-* Install Arduino IDE
-* In arduino IDE go to File -> Preferences and in ""Additional boards manager URLS add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
-* go to Tools -> 
+* Note if your board is fresh off the shelf and doesn't have any firmware installed, follow the "Installing firmware -> OS Specific Setup" as descibed further down.
 
+### Install Arduino IDE ###
+** In arduino IDE go to File -> Preferences and in "Additional boards manager URLS" add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
+** go to Tools -> Board -> Board managaer, select -TBD- One of the STM32 or meetjestad boards. -TDB-
+** go to tools -> programmer and select STM32 BOOTLOADER (STM32LO)
+
+### Getting example sketches. ###
+** either clone or download from this git repository to get a .ino sketch directly in the software subfolders.
+
+* Note: under windows Arduino IDE sometimes doesn't find the port. Yet flashing the board still works:  set:  Tools -> serial -> refers to SerialUSB, and tools -> USB Type -> Serial, and tools -> programmer -> STM32 BOOTLOADER. Click "upload" and it should start uploading the software.
+** if it shows [Downloading ==== ] and then "Download succeded" but follows with an error message, the .ino sketch should still work.
+
+### Installing firmware ###
+#### OS Specific Setup
+
+##### Linux
+
+ 1. Go to ~/.arduino15/packages/kittengineering/hardware/stm32l0/```<VERSION>```/drivers/linux/
+ 2. sudo cp *.rules /etc/udev/rules.d
+ 3. reboot
+
+#####  Windows
+
+###### STM32 BOOTLOADER driver setup for MJS2020 boards
+
+ 1. Download [Zadig](http://zadig.akeo.ie)
+ 2. Plugin STM32L0 board and toggle the RESET button while holding down the BOOT button
+ 3. Let Windows finish searching for drivers
+ 4. Start ```Zadig```
+ 5. Select ```Options -> List All Devices```
+ 6. Select ```STM32 BOOTLOADER``` from the device dropdown
+ 7. Select ```WinUSB (v6.1.7600.16385)``` as new driver
+ 8. Click ```Replace Driver```
+
+###### USB Serial driver setup for MJS2020 boards (Window XP / Windows 7 only)
+
+ 1. Go to ~/AppData/Local/Arduino15/packages/kittengineering/hardware/stm32l0/```<VERSION>```/drivers/windows
+ 2. Right-click on ```dpinst_x86.exe``` (32 bit Windows) or ```dpinst_amd64.exe``` (64 bit Windows) and select ```Run as administrator```
+ 3. Click on ```Install this driver software anyway``` at the ```Windows Security``` popup as the driver is unsigned
 
 
 ## Resources ##
