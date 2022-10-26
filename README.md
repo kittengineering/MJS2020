@@ -68,7 +68,7 @@ On https://github.com/meetjestad has a lot of information about these board. Not
 https://github.com/obokhove/wetropolis20162020 is another project that uses this board.
 
 ### Board overview ###
-![alt text](https://github.com/kittengineering/MJS2020/blob/main/MJS2020.jpg?raw=true)
+![alt text](https://github.com/kittengineering/MJS2020/blob/main/Documents/BoardMJS2020.png?raw=true)
 
 #### Example of a board with a mounted OLED screen and temperature and humidity sensor ###
 
