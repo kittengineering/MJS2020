@@ -19,8 +19,12 @@ MJS2020 platform board repository.
  5. if it shows [Downloading ==== ] and then "Download succeded" but follows with an error message, the .ino sketch should still work.
  
  
-### Connecting the board ###
- 1. follow https://github.com/meetjestad/mjs_bootstrap 
+### Connecting the board using LORA ###
+ 1. follow https://github.com/meetjestad/mjs_bootstrap
+ 
+ 
+### Board sourcefiles ###
+ 1. https://github.com/meetjestad/mjs_boards/tree/stm32l0
 
 ### Installing firmware ###
 * This only needs to be done once: when the board comes off the shelf from the factory.
