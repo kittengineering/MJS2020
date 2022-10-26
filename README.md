@@ -7,9 +7,10 @@ MJS2020 platform board repository.
 * Note if your board is fresh off the shelf and doesn't have any firmware installed, follow the "Installing firmware -> OS Specific Setup" as descibed further down.
 
 ### Install Arduino IDE ###
- 1. In arduino IDE go to File -> Preferences and in "Additional boards manager URLS" add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
- 2. go to Tools -> Board -> Board manager, type in "STM32", the "Meet je stad! STM32LO Boards" should appear. "Boards included in this package" states(among other things) "MJS2020-PROTO4". Press install.
- 3. go to tools -> programmer and select STM32 BOOTLOADER (STM32LO)
+ 1. Download the Arduinoe IDE and install it. -> https://www.arduino.cc/en/software 
+ 2. In arduino IDE go to File -> Preferences and in "Additional boards manager URLS" add https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json and press ok
+ 3. go to Tools -> Board -> Board manager, type in "STM32", the "Meet je stad! STM32LO Boards" should appear. "Boards included in this package" states(among other things) "MJS2020-PROTO4". Press install.
+ 4. go to tools -> programmer and select STM32 BOOTLOADER (STM32LO)
 
 ### Getting example sketches. ###
  1. either clone or download from this git repository to get a .ino sketch directly in the software subfolders.
@@ -28,8 +29,7 @@ MJS2020 platform board repository.
 ### Installing firmware ###
 * This only needs to be done once: when the board comes off the shelf from the factory.
 * Your board already has firmware installed if, for example, it displays text on the LCD, sends messages over serial ports, or "does anything besides just sitting there".
-#### Putting the LORA unique identifiers in eprom ####
- 1. follow https://github.com/meetjestad/mjs_bootstrap
+
 
 #### OS Specific Setup
 
@@ -58,6 +58,8 @@ MJS2020 platform board repository.
  2. Right-click on ```dpinst_x86.exe``` (32 bit Windows) or ```dpinst_amd64.exe``` (64 bit Windows) and select ```Run as administrator```
  3. Click on ```Install this driver software anyway``` at the ```Windows Security``` popup as the driver is unsigned
 
+##### Putting the LORA unique identifiers in eprom #####
+ 1. follow https://github.com/meetjestad/mjs_bootstrap
 
 ## Resources ##
 
