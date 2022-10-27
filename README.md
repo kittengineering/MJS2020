@@ -18,6 +18,7 @@ MJS2020 platform board repository.
  3. To set the board in flash mode: power on the board (using either USB or battery power ). set the dip switch in the middle of the board on "On", hold down the "boot" button and toggle (press shortly) the "reset" button when the board is powered.
  4. Note: under windows Arduino IDE sometimes doesn't find the port. Yet flashing the board still works:  set:  Tools -> serial -> refers to SerialUSB, and tools -> USB Type -> Serial, and tools -> programmer -> STM32 BOOTLOADER. Click "upload" and it should start uploading the software.
  5. if it shows [Downloading ==== ] and then "Download succeded" but follows with an error message, the .ino sketch should still work.
+ Note: a compleet set of example sketches compatible with this board can be found at https://github.com/meetjestad/mjs_boards/tree/stm32l0/libraries.
  
  
 
