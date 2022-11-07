@@ -27,3 +27,4 @@ fp-info-cache
 
 # Specific key files
 LoRAKey.h
+ttn-config-keys.h
