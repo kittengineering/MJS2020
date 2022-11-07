@@ -13,6 +13,7 @@
    - NeoGPS (mjs-specific fork): https://github.com/meetjestad/NeoGPS
    - Adafruit_SleepyDog: https://github.com/adafruit/Adafruit_SleepyDog
    - lmic (mjs-specific fork): https://github.com/meetjestad/arduino-lmic
+   - U8g2 (OLED library): https://github.com/olikraus/u8g2 (available through arduino IDE)
  *******************************************************************************/
 
 // include external libraries
@@ -20,6 +21,7 @@
 #include <SPI.h>
 #include <Wire.h>
 #include "STM32L0.h"
+
 #define DEBUG true
 #define OLED true
 #define CO2 true
